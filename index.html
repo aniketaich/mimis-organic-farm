@@ -6,15 +6,17 @@
 
   <title>Mimi's Organic Farm</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
   <header class="site-header">
-    <div class="logo">
-      <a href="index.html">Mimi's Organic Farm</a>
-    </div>
+    <a class="logo" href="index.html">Mimi's Organic Farm</a>
 
     <nav class="nav-links">
       <a href="about.html">Our Farm</a>
@@ -25,193 +27,229 @@
     </nav>
   </header>
 
-
   <main>
 
     <!-- HERO -->
     <section class="hero">
+      <img src="images/hero-family.jpg" alt="The family behind Mimi's Organic Farm">
 
-      <div class="hero-image">
-        <img src="images/hero-strawberries.jpg" alt="Organic strawberries growing at Mimi's Organic Farm">
-      </div>
+      <div class="hero-overlay"></div>
 
       <div class="hero-content">
-        <p class="eyebrow">Mimi's Organic Farm</p>
+        <p class="hero-kicker">Mimi's Organic Farm</p>
 
         <h1>
           Organic berries.<br>
           Family grown.<br>
-          Rooted in generations of farming.
+          Rooted in generations of regenerative farming.
         </h1>
-
-        <p class="hero-text">
-          We are a family-run organic farm growing strawberries,
-          blackberries, and seasonal produce on California's Central Coast,
-          with a growing commitment to bringing fresh organic food into
-          public schools.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="about.html" class="button">Our Story</a>
-          <a href="farm-to-school.html" class="button button-outline">Farm to School</a>
-        </div>
       </div>
-
     </section>
 
 
-    <!-- OUR STORY -->
-    <section class="story-section">
+    <!-- FAMILY STATEMENT -->
+    <section class="family-statement">
+      <div class="statement-wrap">
+        <p class="eyebrow">Our Story</p>
 
-      <div class="story-text">
-        <p class="eyebrow">Our Farm</p>
+        <h2>
+          Farming is part of our family.
+          Our strawberries and blackberries are part of our family.
+        </h2>
 
-        <h2>Farming is part of our family.</h2>
-
-        <p>
-          Mimi's Organic Farm is owned and operated by Domitila Tapia
-          and her family. Domitila began working in strawberry fields
-          in Mexico alongside her parents and grandparents before
-          immigrating to California.
-        </p>
-
-        <p>
-          After years of working in agriculture, Domitila and her husband
-          decided to build a farm of their own. In 2015, they began
-          growing organically on two acres of land.
-        </p>
-
-        <p>
-          Today, Domitila works alongside her husband and daughters,
-          continuing a family tradition of farming while building a
-          healthier future for the next generation.
+        <p class="statement-copy">
+          Domitila Tapia began working in strawberry fields in Mexico alongside
+          her parents and grandparents before continuing her farming journey in
+          California. Today, Mimi's Organic Farm is run by Domitila and her family,
+          carrying forward generations of agricultural knowledge while growing
+          food organically and with deep care for the land.
         </p>
 
         <a href="about.html" class="text-link">Read our story →</a>
       </div>
+    </section>
 
-      <div class="story-image">
-        <img src="images/domitila-farm.jpg" alt="Domitila Tapia at Mimi's Organic Farm">
+
+    <!-- DOMITILA -->
+    <section class="editorial-split">
+      <div class="split-image">
+        <img src="images/domitila-strawberries.jpg" alt="Domitila Tapia holding strawberries">
       </div>
 
+      <div class="split-copy">
+        <p class="eyebrow">Meet Domitila</p>
+
+        <h2>Growing with care, from one generation to the next.</h2>
+
+        <p>
+          For Domitila, organic farming is personal. She grew up with farming
+          traditions rooted in working closely with the soil, observing plants,
+          and using natural methods to protect crops and nourish the land.
+        </p>
+
+        <p>
+          That same care shapes the way Mimi's grows berries today.
+        </p>
+      </div>
     </section>
 
 
     <!-- WHAT WE GROW -->
     <section class="grow-section">
-
       <div class="section-heading">
         <p class="eyebrow">What We Grow</p>
-        <h2>Grown organically, from soil to harvest.</h2>
+
+        <h2>Organic berries, grown with intention.</h2>
+
+        <p>
+          Our crops are grown organically with practices focused on soil health,
+          crop rotation, compost, biodiversity, and careful observation throughout
+          the growing season.
+        </p>
       </div>
 
       <div class="crop-grid">
-
-        <div class="crop-card">
+        <article class="crop-item">
           <img src="images/strawberries.jpg" alt="Organic strawberries">
           <h3>Strawberries</h3>
-        </div>
+        </article>
 
-        <div class="crop-card">
+        <article class="crop-item">
           <img src="images/blackberries.jpg" alt="Organic blackberries">
           <h3>Blackberries</h3>
-        </div>
+        </article>
 
-        <div class="crop-card">
+        <article class="crop-item">
           <img src="images/sugar-snap-peas.jpg" alt="Organic sugar snap peas">
           <h3>Sugar Snap Peas</h3>
-        </div>
-
-        <div class="crop-card">
-          <img src="images/seasonal-produce.jpg" alt="Seasonal produce">
-          <h3>Seasonal Produce</h3>
-        </div>
-
+        </article>
       </div>
 
-      <a href="grow.html" class="text-link">Explore how we grow →</a>
-
+      <a href="grow.html" class="text-link">See how we grow →</a>
     </section>
 
 
     <!-- FARM TO SCHOOL -->
-    <section class="school-section">
+    <section class="farm-school">
 
-      <div class="school-intro">
-        <p class="eyebrow">Farm to School</p>
+      <div class="farm-school-hero">
+        <img src="images/students-strawberries.jpg" alt="Students with strawberries">
 
-        <h2>Growing food for the next generation.</h2>
+        <div class="farm-school-overlay"></div>
 
+        <div class="farm-school-copy">
+          <p class="eyebrow light">Farm to School</p>
+
+          <h2>Growing food for the next generation.</h2>
+        </div>
+      </div>
+
+      <div class="farm-school-intro">
         <p>
-          Mimi's Organic Farm works with school districts across California
-          to bring locally grown organic produce into school meal programs.
-          These partnerships create reliable markets for farmers while giving
-          students access to fresh food grown close to home.
+          Mimi's Organic Farm works with school districts across California to
+          bring locally grown organic produce into school meal programs. These
+          partnerships connect students directly with local agriculture while
+          creating strong and reliable markets for organic farmers.
         </p>
       </div>
 
-      <div class="impact-grid">
+      <div class="stats-grid">
 
-        <div class="impact-item">
-          <span class="impact-number">132,128</span>
-          <span class="impact-label">lbs of strawberries sold to schools in 2026 YTD</span>
+        <div class="stat">
+          <span class="stat-number" data-target="11">0</span>
+          <span class="stat-label">school districts</span>
         </div>
 
-        <div class="impact-item">
-          <span class="impact-number">$398,295</span>
-          <span class="impact-label">2026 YTD strawberry school sales</span>
+        <div class="stat">
+          <span class="stat-number" data-target="132128" data-suffix=" lb">0</span>
+          <span class="stat-label">strawberries sold to schools in 2026 YTD</span>
         </div>
 
-        <div class="impact-item">
-          <span class="impact-number">11</span>
-          <span class="impact-label">school district partners by 2026</span>
+        <div class="stat">
+          <span class="stat-number" data-target="398295" data-prefix="$">0</span>
+          <span class="stat-label">strawberry school sales in 2026 YTD</span>
         </div>
 
       </div>
 
-      <a href="farm-to-school.html" class="button">Learn about Farm to School</a>
+
+      <!-- EDUCATION -->
+      <div class="education-grid">
+
+        <div class="education-copy">
+          <p class="eyebrow">Learning Through Food</p>
+
+          <h2>Food is more meaningful when students know where it comes from.</h2>
+
+          <p>
+            Our farm-to-school work includes opportunities for students and
+            school food leaders to experience farming firsthand.
+          </p>
+
+          <p>
+            In 2025, Mimi's conducted sugar snap pea taste tests across seven
+            schools in four districts, giving students an opportunity to learn
+            how organic produce is grown and why real food does not always look
+            perfectly uniform.
+          </p>
+
+          <p>
+            In August 2026, Mimi's also welcomed representatives from purchasing
+            school districts to the farm to learn about organic farming,
+            crop production, and soil health.
+          </p>
+
+          <a href="farm-to-school.html" class="text-link">Explore Farm to School →</a>
+        </div>
+
+        <div class="education-images">
+          <img src="images/students-taste-test.jpg" alt="Students taste testing sugar snap peas">
+          <img src="images/school-visit-group.jpg" alt="School district representatives visiting Mimi's Organic Farm">
+        </div>
+
+      </div>
 
     </section>
 
 
-    <!-- EDUCATION -->
-    <section class="education-section">
+    <!-- PEOPLE -->
+    <section class="people-section">
 
-      <div class="education-image">
-        <img src="images/farm-tour.jpg" alt="Farm tour at Mimi's Organic Farm">
+      <div class="section-heading">
+        <p class="eyebrow">The People Behind Mimi's</p>
+        <h2>A family farm, built together.</h2>
       </div>
 
-      <div class="education-text">
-        <p class="eyebrow">Visit + Education</p>
+      <div class="people-grid">
 
-        <h2>Come see where your food grows.</h2>
+        <article class="person">
+          <img src="images/domitila-strawberries.jpg" alt="Domitila Tapia">
+          <h3>Domitila Tapia</h3>
+          <p>Owner + Farmer</p>
+        </article>
 
-        <p>
-          From farm tours for school food leaders to student taste tests,
-          Mimi's creates opportunities for people to understand where food
-          comes from and how organic farming works.
-        </p>
+        <article class="person">
+          <img src="images/marlen-strawberries.jpg" alt="Marlen Tapia">
+          <h3>Marlen Tapia</h3>
+          <p>Farm + Sales Director</p>
+        </article>
 
-        <a href="visit.html" class="text-link">Explore visits + education →</a>
       </div>
 
     </section>
 
 
-    <!-- CONTACT -->
-    <section class="contact-cta">
+    <!-- CLOSING IMAGE -->
+    <section class="closing-image">
+      <img src="images/field-work.jpg" alt="Working in the fields at Mimi's Organic Farm">
 
-      <p class="eyebrow">Get in Touch</p>
+      <div class="closing-overlay"></div>
 
-      <h2>Interested in Mimi's Organic Farm?</h2>
+      <div class="closing-copy">
+        <h2>Grown with care.<br>Shared with community.</h2>
 
-      <p>
-        Reach out about school partnerships, farm visits,
-        produce availability, or other collaborations.
-      </p>
-
-      <a href="contact.html" class="button">Contact Us</a>
-
+        <a href="contact.html" class="button-light">Contact Mimi's</a>
+      </div>
     </section>
 
   </main>
@@ -224,7 +262,7 @@
       <p>California Central Coast</p>
     </div>
 
-    <div>
+    <div class="footer-links">
       <a href="about.html">Our Farm</a>
       <a href="grow.html">What We Grow</a>
       <a href="farm-to-school.html">Farm to School</a>
@@ -233,6 +271,53 @@
     </div>
 
   </footer>
+
+
+  <script>
+    const counters = document.querySelectorAll('.stat-number');
+
+    const animateCounter = (counter) => {
+      const target = Number(counter.dataset.target);
+      const prefix = counter.dataset.prefix || '';
+      const suffix = counter.dataset.suffix || '';
+
+      const duration = 1600;
+      const startTime = performance.now();
+
+      const update = (currentTime) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const value = Math.floor(target * eased);
+
+        counter.textContent =
+          prefix +
+          value.toLocaleString('en-US') +
+          suffix;
+
+        if (progress < 1) {
+          requestAnimationFrame(update);
+        }
+      };
+
+      requestAnimationFrame(update);
+    };
+
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    counters.forEach(counter => observer.observe(counter));
+  </script>
 
 </body>
 </html>
